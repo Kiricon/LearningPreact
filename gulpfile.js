@@ -29,12 +29,12 @@ gulp.task('buildcss', () => {
 });
 
 gulp.task('webpack', () => {
-    return gulp.src('./src/js/index.js')
+    return gulp.src('./src/js/app.js')
     .pipe(webpack( require('./webpack.config.js')))
     .pipe(gulp.dest('./src/js'));
 });
 gulp.task('buildwebpack', () => {
-    return gulp.src('./src/js/index.js')
+    return gulp.src('./src/js/app.js')
     .pipe(webpack( require('./webpack.config.js')))
     .pipe(babel({
             presets: ['es2015'],
