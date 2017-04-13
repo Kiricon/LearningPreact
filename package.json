@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Kiricon/LearningPreact/issues"
   },
-  "homepage": "https://github.com/Kiricon/LearningPreact#readme"
+  "homepage": "https://github.com/Kiricon/LearningPreact#readme",
+  "devDependencies": {
+    "webpack": "^2.3.3"
+  }
 }
